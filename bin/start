@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require 'byebug'
+require "spotify_latest_favo_maker"
+require 'dotenv/load'
+SpotifyLatestFavoMaker.main(ENV['CLIENT_ID'], ENV['CLIENT_SECRET'], 3)
