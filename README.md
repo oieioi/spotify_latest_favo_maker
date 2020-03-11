@@ -1,15 +1,16 @@
 # SpotifyLatestFavoMaker
 
-Create a Spotify playlist from your favorite tracks of the last 6 months.
+Create a Spotify playlist from your saved (liked) tracks of the last 3 months.
 
 ## Installation and Usage
 
-Clone this repository and [Create spotify client id](https://developer.spotify.com/dashboard/applications) and Create `.env` file;
+Clone this repository and [Register Spotify app client id](https://developer.spotify.com/dashboard/applications) and Create `.env` file;
 
 ```bash
 $ cat > .env <<EOS
 CLIENT_ID=your_spotify_client_id
 CLIENT_SECRET=your_spotify_client_id
+EOS
 ```
 
 And exec;
